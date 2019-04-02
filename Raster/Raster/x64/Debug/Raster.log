@@ -1,0 +1,16 @@
+﻿  program.cpp
+c:\users\dxt00\desktop\graphics\scratchpixel\rasterization\raster\raster\boat.h(22): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+c:\users\dxt00\desktop\graphics\scratchpixel\rasterization\raster\raster\program.cpp(12): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+c:\users\dxt00\desktop\graphics\scratchpixel\rasterization\raster\raster\program.cpp(16): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\dxt00\desktop\graphics\scratchpixel\rasterization\raster\raster\program.cpp(17): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\dxt00\desktop\graphics\scratchpixel\rasterization\raster\raster\program.cpp(18): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\dxt00\desktop\graphics\scratchpixel\rasterization\raster\raster\program.cpp(19): warning C4305: “初始化”: 从“double”到“float”截断
+  Raster.vcxproj -> C:\Users\DXT00\Desktop\Graphics\scratchPixel\Rasterization\Raster\x64\Debug\Raster.exe
