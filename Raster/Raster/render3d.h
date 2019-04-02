@@ -1,4 +1,5 @@
 #pragma once
+#define PI 3.14159
 enum fitMethod
 {
 	FILL,
@@ -17,5 +18,5 @@ void computeCanvasSize(const float focalLength, const float filmApertureWidth,
 
 void compute_Screen_RasterSpace(const float left, const float right,
 	const float top, const float bottom, float nearClipingPlane,
-	float imageWidth, float imageHeight,
-	const vec3f pWorld, const Matrix44f worldToCamera, vec2f &pNDC, vec2i &pRaster, bool &visible);
+	unsigned int imageWidth, unsigned int imageHeight,
+	const vec3f pWorld, const Matrix44f worldToCamera, vec2f &pNDC, vec3i &pRaster, bool &visible);
