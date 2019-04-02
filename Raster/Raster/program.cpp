@@ -44,7 +44,7 @@ int main() {
 		vec3f pWorld1 = verts[tris[i * 3 + 1]];
 		vec3f pWorld2 = verts[tris[i * 3 + 2]];
 		vec2f pNDC0,pNDC1,pNDC2;
-		vec2i pRaster0,pRaster1,pRaster2;
+		vec3i pRaster0,pRaster1,pRaster2;
 		compute_Screen_RasterSpace(l, r, t, b, nearClippingPlane, imageWidth, imageHeight, pWorld0, worldToCamera, pNDC0, pRaster0,visible);
 		compute_Screen_RasterSpace(l, r, t, b, nearClippingPlane, imageWidth, imageHeight, pWorld1, worldToCamera, pNDC1, pRaster1, visible);
 		compute_Screen_RasterSpace(l, r, t, b, nearClippingPlane, imageWidth, imageHeight, pWorld2, worldToCamera, pNDC2, pRaster2, visible);
